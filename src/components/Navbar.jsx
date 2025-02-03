@@ -1,6 +1,7 @@
 import React from "react";
 import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Logo from "../assets/Images/shop.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-16 lg:px-24 py-4 flex justify-between items-center">
         <div className="flex items-center text-sm md:text-md lg:text-lg  font-semibold lg:font-bold">
           <img
-            src="src/assets/shop.png"
+            src={Logo}
             width={30}
             height={30}
             alt="logo"
